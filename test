@@ -1,0 +1,6 @@
+public record sample
+{
+    public STRING PropertyOne;
+    public INTEGER PropertyTwo;
+
+}

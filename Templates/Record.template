@@ -1,0 +1,6 @@
+public record {{Name}}
+{
+{% for property in Properties -%}
+    public {{property.Type}} {{property.Name}};
+{% endfor -%}
+}
